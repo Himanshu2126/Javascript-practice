@@ -1,0 +1,50 @@
+img{
+    width: 1500px;
+    height: 400px;
+}
+
+body{
+    margin: 0px;
+
+}
+.slid-container{
+    position: relative;
+    width: 100%;
+
+}
+.arrow{
+   cursor:pointer;
+   position: absolute;
+   top:45%;
+   color: #140402;
+   background-color: blanchedalmond;
+   padding:5px 20px ;
+   border-radius: 50%;
+   font-size: 25px;
+   font-weight: bold;
+}
+.pre{
+    left:10px;
+}
+.next{
+    right:10px;
+}
+
+.caption{
+    color: white;
+    font-size: 30px;
+    font-weight: bold;
+    position: absolute;
+    bottom: 0px;
+    width: 100%;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.436);
+    padding:5px 5px ;
+
+
+
+}
+
+.slid1{
+    display: none;
+}

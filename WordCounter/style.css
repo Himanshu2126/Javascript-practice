@@ -1,0 +1,25 @@
+body{
+    padding: 50px 100px;
+}
+
+h1{
+    text-align: center;
+    background-color: blueviolet;
+    color: white;
+    padding: 10px;
+    margin: 0%;
+}
+textarea{
+    width: 99.5%;
+    border-color: blue;
+}
+.pr{
+    text-align: center;
+    background-color: blueviolet;
+    color: white;
+    padding: 10px;
+    margin: 0%;
+    font-size: 25px;
+
+}
+

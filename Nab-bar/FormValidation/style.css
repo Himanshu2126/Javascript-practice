@@ -1,0 +1,36 @@
+body{
+    background-color: blue;
+    display: flex;
+    
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+#form-container{
+    padding: 50px ;
+    background-color: aliceblue;
+    text-align: center;
+    
+    
+    
+
+}
+input{
+    width: 200px;
+    margin: 10px 0px;
+    padding: 10px;
+}
+#submit{
+    width: 220px;
+    background-color: blue;
+    color: white;
+}
+h1{
+    text-align: center;
+}
+p{
+    text-align: left;
+    margin: 0px;
+    color: red;
+}

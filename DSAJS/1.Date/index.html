@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+    <h2 id="id">w3resource <h2>
+    <h1> The Currrent  </h1>
+        <h1>Day</h1>
+    <p id="ti">Today is</p>
+  
+    
+    
+        <h1> Time</h1>
+    <p id="t">time </p>
+     <BUtton id="print" onclick="printscreen()">print</BUtton>    
+
+    
+      <button onclick="re()">Reverse</button>
+     <button onclick="animate_string('id')">Move</button>
+
+  <script>
+    
+    // var daylist = ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"];
+    // const T= new Date();
+    // document.getElementById("ti").innerHTML=daylist[T.getDay()];
+    // document.getElementById("t").innerHTML=T.getHours()+"hr: "+T.getMinutes() + "Min:"+T.getSeconds()+"Sec";
+
+     
+    //    function printscreen()
+    //    {
+
+    //     window.print();
+
+    //    }
+
+
+     function re(){
+        var element = document.getElementById("id");
+        var textNode = element.childNodes[0];
+        var text = textNode.data;
+        var res="";
+         
+        for(let i=text.length-1; i>=0;i--)
+     {
+         res+=text[i];
+        
+     }
+        element.innerHTML=res;
+
+     }
+
+     
+
+    //    function animate_string(id) {
+    // // Get the HTML element by its id
+    // var element = document.getElementById(id);
+    // console.log(element);
+
+    // // Access the text node inside the element (assuming no other children)
+    // var textNode = element.childNodes[0];
+    // console.log(textNode);
+    
+    // // Extract the initial text content of the text node
+    // var text = textNode.data;
+    // console.log(text);
+
+    // // Set up an interval to rotate the characters in the text every 100 milliseconds
+    // setInterval(function () {
+    //     // Move the last character to the beginning of the string
+    //     text = text[text.length - 1] + text.substring(0, text.length - 1);
+
+    //     // Update the text content of the text node with the modified string
+    //     textNode.data = text;
+      
+    // }, 100);
+//} 
+  </script>
+</body>
+</html>

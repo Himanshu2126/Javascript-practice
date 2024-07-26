@@ -1,0 +1,40 @@
+h1{
+    text-align: center;
+}
+img{
+    width: 100%;
+    height: auto;
+    
+    margin: 0% auto;
+}
+
+p{
+     font-size: 22px;
+    text-align: justify;
+}
+.btn{
+    width: 20px;
+    height: 20px;
+    display: inline-block;
+    border-radius: 50px;
+    cursor: pointer;
+}
+.color-switcher{
+    text-align:right;
+}
+#white{
+background-color: aliceblue;
+border: solid gray;
+}
+#red{
+background-color: rgb(137, 10, 10);
+border: solid gray;
+}
+#pink{ background-color: pink;
+   border: solid gray;
+
+}
+#black{
+ background-color:black;
+border: solid gray;
+}

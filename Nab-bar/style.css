@@ -1,0 +1,46 @@
+.nav{
+
+text-align: center;
+background-color: rgb(8, 125, 228);
+padding: 10px 10px;
+color: white;
+
+}
+.nav li{
+    display: inline;
+    padding: 5px 10px;
+    font-weight: bold;
+}
+.logo
+{ 
+  text-align: center;
+
+
+}
+#log{
+    width: 250px;
+    height: auto;
+
+}
+.container{
+    text-align: center;
+    padding: 50px 100px;
+    text-align: justify;
+     
+}
+
+.img1{
+    
+    width: 100%;
+}
+h1{
+    text-align: center;
+}
+
+.stickey{
+    position: fixed;
+    top:0px;
+    width: 100%;
+    
+
+}

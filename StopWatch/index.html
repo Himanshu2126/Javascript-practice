@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>StopWatch</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="container">
+        <div id="time">
+          <Span class="digit" id="hr">00</Span>
+          <span class="text">Hr</span>
+
+          <Span class="digit" id="min">00</Span>
+          <span class="text">Min</span>
+
+          <Span class="digit" id="sec">00</Span>
+          <span class="text">Sec</span>
+
+          <Span class="digit" id="count">00</Span>
+
+        </div>
+    
+    
+        <div id="btn-container">
+
+        <button class="btn" id="Start" onclick="Start()">Start</button>  
+        <button class="btn" id="Stop" onclick="Stop()">Stop</button>
+        <button class="btn" id="Reset" onclick="Reset()">Reset</button>
+        </div>
+  </div>
+    
+    <script src="app.js"></script>
+</body>
+</html>

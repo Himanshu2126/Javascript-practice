@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Couples Percentage Calculator</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Love & Loyalty Calculator</h1>
+        <form id="loveCalculator">
+            <div class="input-group">
+                <label for="name1">Your Name:</label>
+                <input type="text" id="name1" required>
+            </div>
+            <div class="input-group">
+                <label for="name2">Partner's Name:</label>
+                <input type="text" id="name2" required>
+            </div>
+            <button type="submit">Calculate Love</button>
+        </form>
+        <div id="result" class="result">
+            <div class="heart">
+                <div id="percentage"></div>
+            </div>
+        </div>
+
+        <form id="loyaltyCheck" style="display:none;">
+            <h2>Loyalty Check</h2>
+            <div class="question-group">
+                <label>1. Do you trust your partner?</label>
+                <select id="q1">
+                    <option value="yes">Yes</option>
+                    <option value="no">No</option>
+                </select>
+            </div>
+            <div class="question-group">
+                <label>2. Does your partner respect you?</label>
+                <select id="q2">
+                    <option value="yes">Yes</option>
+                    <option value="no">No</option>
+                </select>
+            </div>
+            <div class="question-group">
+                <label>3. Are you comfortable sharing your secrets with your partner?</label>
+                <select id="q3">
+                    <option value="yes">Yes</option>
+                    <option value="no">No</option>
+                </select>
+            </div>
+            <div class="question-group">
+                <label>4. Do you think your partner would never cheat on you?</label>
+                <select id="q4">
+                    <option value="yes">Yes</option>
+                    <option value="no">No</option>
+                </select>
+            </div>
+            <div class="question-group">
+                <label>5. Do you both have common future goals?</label>
+                <select id="q5">
+                    <option value="yes">Yes</option>
+                    <option value="no">No</option>
+                </select>
+            </div>
+            <button type="submit">Check Loyalty</button>
+        </form>
+        <div id="loyaltyResult" class="result"></div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

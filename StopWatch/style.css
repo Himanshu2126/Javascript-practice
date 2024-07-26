@@ -1,0 +1,44 @@
+body{
+    background-color: blue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height:100vh;
+
+}
+#container{
+    color: beige;
+}
+.digit{
+    font-size: 150px;
+    font-weight: bold;
+
+
+}
+.text{
+    font-size: 40px;
+    font-weight: bold;
+}
+#btn-container{
+    text-align: center;
+    margin: 30px;
+}
+.btn{
+    padding:5px 10px;
+    font-size: 25px;
+    font-weight: bold;
+    cursor: pointer;
+
+}
+
+#Start{
+    background-color: green;
+}
+
+#Stop{
+    background-color: brown;
+}
+#Reset{
+    background-color:yellow;
+}
+
