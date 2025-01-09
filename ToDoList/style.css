@@ -117,3 +117,30 @@ ul li span:hover{
 }
 
 
+.edit{
+    position: absolute;
+    right:50px;
+    top: 5px;
+    height:30px;
+    width: 20px;
+    font-size: 25px;
+    color: #555;
+    inline-size:40px;
+    text-align: center ;
+    border-radius: 30%;
+    
+}
+
+#error
+{
+    color: red;
+    margin-top: 0px;
+    padding-top: 0px;
+    
+   
+  
+    padding-left: 20px;
+    margin-bottom: 25px;
+
+
+}
